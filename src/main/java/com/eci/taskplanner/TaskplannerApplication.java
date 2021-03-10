@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 @PropertySource("classpath:application.properties")
 public class TaskplannerApplication implements WebMvcConfigurer{
 
-	@Value( "${cors.urlsValidos}")
+	@Value( "${cors.corsValidos}")
 	String corsValidos;
 
 	public static void main(String[] args) {
